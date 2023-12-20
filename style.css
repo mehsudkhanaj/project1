@@ -1,82 +1,96 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-size: 14px;
     background-color: rgb(196, 190, 190);
 }
-.container{
+
+.container {
     background-color: white;
     width: 500px;
     /* height: 700px; */
     padding: 25px;
     margin: 30px auto;
-    border-top: 6px solid blue;
+    border-top: 6px solid rgb(102, 102, 174);
     box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.5);
 }
-.container h2{
+
+.container h2 {
     font-size: 22px;
     line-height: 24px;
     padding-bottom: 30px;
     text-align: center;
 }
-.input-name{
+
+.input-name {
     width: 90%;
     position: relative;
     margin: 20px auto;
 
 }
-.fa-user{
+
+.fa-user {
     padding: 8px 11px;
 }
-.fa-lock{
+
+.fa-lock {
     padding: 8px 11px;
 }
-.name{
+
+.name {
     width: 45%;
     padding: 8px 0 8px 40px;
 
 }
-.input-name span{
+
+.input-name span {
     margin-left: 35px;
 
 }
-.text-name{
+
+.text-name {
     width: 100%;
     padding: 8px 0 8px 40px;
 
 }
-.input-name i{
+
+.input-name i {
     position: absolute;
     font-size: 16px;
     color: rgb(23, 52, 214);
     border-right: 1px solid #cccccc;
 }
-.email{
+
+.email {
     padding: 8px;
 
 }
-.text-name, .name{
+
+.text-name,
+.name {
     border: 1px solid #cccccc;
     outline: none;
     transition: all 0.30s ease-in-out;
 
 }
 
-#name:focus{
+#name:focus {
     border: 1px solid blue;
 }
 
-#name:hover{
+#name:hover {
     background-color: #e9dfdf;
 }
-.radio-button{
+
+.radio-button {
     margin-right: 4px;
 }
-.country{
+
+.country {
     width: 37%;
     display: inline-block;
     height: 25px;
@@ -89,17 +103,21 @@ body{
     transition: all 0.2s ease-in-out;
     appearance: none;
 }
-.country::ms-expand{
+
+.country::ms-expand {
     display: none;
 
 }
-.country:hover, .country:focus{
+
+.country:hover,
+.country:focus {
     color: blue;
     background-color: #fafafa;
     border: blue;
     outline: none;
 }
-.arrow{
+
+.arrow {
     position: absolute;
     top: calc(86% - 14px);
     right: 219px;
@@ -109,33 +127,34 @@ body{
     border-width: 8px 5px 0 5px;
     border-style: solid;
     border-color: #7b7b7b transparent transparent transparent;
- }
- .country:hover{
+}
+
+.country:hover {
     border-color: blue;
     border: 1px;
- }
- .country:focus{
-    border: 1px solid blue;
- }
- .check{
+}
+
+.country:focus {
+    border: 1px solid rgb(46, 55, 186);
+}
+
+.check {
     margin-right: 5px;
     position: relative;
- }
- 
+}
 
- #cb:hover{
+
+#cb:hover {
     background-color: #b22424;
 
- }
- .check-button:checked + .check::before{
+}
+
+.check-button:checked+.check::before {
     border-color: rgb(106, 214, 106);
 
- }
- 
-
- 
-.button{
-    background-color: blue;
+}
+.button {
+    background-color: rgb(102, 102, 237);
     color: white;
     border-radius: 10px;
     height: 25px;
@@ -145,33 +164,39 @@ body{
     outline: none;
     font-size: 18px;
     cursor: pointer;
-    
+
 
 }
-.button:hover{
+
+.button:hover {
     background-color: rgb(88, 133, 19);
 }
-@media (max-width:480px){
-    .container{
+
+@media (max-width:480px) {
+    .container {
         width: 100%;
         padding: 5px;
 
     }
-    .input-name{
+
+    .input-name {
         margin-bottom: -10px;
     }
-    .name{
-        width:100% ;
+
+    .name {
+        width: 100%;
         padding: 8px 0 8px 40px;
         margin-bottom: 5px;
     }
-    .input-name span{
+
+    .input-name span {
         margin: 0;
         padding: 0;
 
 
     }
-    .form-container{
+
+    .form-container {
         /* border: 2px solid black; */
         width: 100%;
     }
