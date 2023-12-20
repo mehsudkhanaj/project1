@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 14px;
+    background-color: rgb(196, 190, 190);
+}
+.container{
+    background-color: white;
+    width: 500px;
+    padding: 25px;
+    margin: 50px auto 0;
+    border-top: 6px solid blue;
+    box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.5);
+}
+.container h2{
+    font-size: 22px;
+    line-height: 24px;
+    padding: 30px;
+    text-align: center;
+}
+.input-name{
+    width: 90%;
+    position: relative;
+    margin: 20px auto;
+
+}
+.fa-user{
+    padding: 8px 11px;
+}
+.fa-lock{
+    padding: 8px 11px;
+}
+.name{
+    width: 45%;
+    padding: 8px 0 8px 40px;
+
+}
+.input-name span{
+    margin-left: 35px;
+
+}
+.text-name{
+    width: 100%;
+    padding: 8px 0 8px 40px;
+
+}
+.input-name i{
+    position: absolute;
+    font-size: 16px;
+    color: rgb(23, 52, 214);
+    border-right: 1px solid #cccccc;
+}
+.email{
+    padding: 8px;
+
+}
+.text-name, .name{
+    border: 1px solid #cccccc;
+    outline: none;
+    transition: all 0.30s ease-in-out;
+
+}
+
+#name:focus{
+    border: 1px solid blue;
+}
+
+#name:hover{
+    background-color: #e9dfdf;
+}
+.radio-button{
+    margin-right: 4px;
+}
+.country{
+    display: inline-block;
+    height: 25px;
+    padding: 2px 15px;
+    cursor: pointer;
+    border: 1px solid #e4dcdc;
+    color: #7b7b7b;
+    border-radius: 0;
+    background-color: white;
+    transition: all 0.2s ease-in-out;
+    appearance: none;
+}
+.country::ms-expand{
+    display: none;
+
+}
+.country:hover, .country:focus{
+    color: blue;
+    background-color: #fafafa;
+    border: blue;
+    outline: none;
+}
