@@ -121,49 +121,8 @@ body{
     margin-right: 5px;
     position: relative;
  }
- /* .check::before{
-    content: "";
-    display: inline-block;
-    margin-right: 8px;
-    width: 8px;
-    height: 8px;
-    vertical-align: -2px;
-    border: 2px solid #cccccc;
-    padding: 2.5px;
-    background-clip: content-box;
-    transition: all 0.2s ease;
+ 
 
- }
- .check::after{
-    border-right: 2px solid black;
-    border-top: 2px solid black;
-    content: "";
-    height: 20px;
-    left: 2px;
-    position: absolute;
-    top: 7px;
-    transform-origin: top left;
-    transform: scaleX(-1) rotate(135deg);
-    width: 7px;
-    display: none;
-
- } */
- /* .check-button{
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-
- } */
- /* .check-button:hover + .check::before{
-    border-color: #d60909;
-
-
-
- } */
  #cb:hover{
     background-color: #b22424;
 
@@ -172,15 +131,7 @@ body{
     border-color: rgb(106, 214, 106);
 
  }
- /* check-button:checked + .check::after{
-    border-color:#000 ;
-    -webkite-animation:check 0.8s ease 0s running;
-    animation: check 0.8s ease 0s running ;
-    display: block;
-    width: 7px;
-    height: 20px;
-    border-color: black;
- } */
+ 
 
  
 .button{
